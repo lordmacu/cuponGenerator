@@ -10,4 +10,5 @@ sh test.sh 8 2 > outputs.txt
 example output
 
 CO57YPHPTULI
+
 CO57XFBQJPSB
