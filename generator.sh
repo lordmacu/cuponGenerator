@@ -34,7 +34,7 @@ BEGIN{
 
 	    # and iterate to random some characters
 	    idx =0
-	            printf("CO57")
+	         #addprefix   printf("CO57")
 
 	    while (idx < NUM){                         
 	        dec =0
