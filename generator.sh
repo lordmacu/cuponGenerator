@@ -7,8 +7,9 @@ fi
 
 SIZE=$1
 items=$2
+prefix=$3
 
-awk -v size="$SIZE" -v items="$items" '
+awk -v size="$SIZE" -v items="$items" -v prefix="$prefix" '
 
 BEGIN{ 
 	for (o=1; o<=items; o++) {
@@ -34,7 +35,8 @@ BEGIN{
 
 	    # and iterate to random some characters
 	    idx =0
-	         #addprefix   printf("CO57")
+        
+           printf(prefix)
 
 	    while (idx < NUM){                         
 	        dec =0
